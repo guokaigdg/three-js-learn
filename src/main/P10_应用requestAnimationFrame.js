@@ -1,5 +1,5 @@
 /*
- * P8_设置物体移动
+ * P10_应用requestAnimationFrame
  */
 
 import * as THREE from 'three';
@@ -59,6 +59,7 @@ const axesHelper = new THREE.AxesHelper(5);
 scence.add(axesHelper);
 
 function render(time) {
+    // P10_应用requestAnimationFrame
     let t = (time / 1000) % 5;
     cube.position.x = t * 1;
     if (cube.position.x > 5) {

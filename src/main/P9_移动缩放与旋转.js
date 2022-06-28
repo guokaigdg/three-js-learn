@@ -1,5 +1,5 @@
 /*
- * P8_设置物体移动
+ * P9_移动缩放与旋转
  */
 
 import * as THREE from 'three';
